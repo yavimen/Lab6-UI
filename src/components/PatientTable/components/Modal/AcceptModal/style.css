@@ -1,0 +1,11 @@
+.acceptModal__wrapper{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.acceptModal__time{
+    margin-left: 5px;
+    border: #61dafb 1px solid;
+    color: #61dafb;
+}

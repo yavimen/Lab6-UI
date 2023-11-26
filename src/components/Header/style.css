@@ -1,0 +1,22 @@
+.header__wrapper {
+    padding: 20px;
+    background: aliceblue;
+    display: flex;
+    gap: 10px
+}
+
+.header-link{
+    padding: 5px 10px;
+    margin: 5px;
+    border: #61dafb 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #61dafb;
+    background: white;
+}
+
+.header-link:hover{
+    border-color: white;
+    color: white;
+    background: #61dafb;
+}

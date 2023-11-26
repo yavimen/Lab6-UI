@@ -1,0 +1,13 @@
+.reason__wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.reason__input{
+    width: 300px;
+    height: 200px;
+    border: #61dafb 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}

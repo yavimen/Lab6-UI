@@ -1,0 +1,53 @@
+.patientTableItem{
+    border: aliceblue 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 10px;
+}
+.patientTableItem div{
+    display: flex;
+    align-items: center;
+}
+
+.patientTableItem-btn{
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+.patientTableItem-btn--accept {
+    border: #61dafb 1px solid;
+    color: #61dafb;
+}
+
+.patientTableItem-btn--accept:hover{
+    color: white;
+    background: #61dafb;
+}
+
+.patientTableItem-btn--reject {
+    color: red;
+    border: red 1px solid;
+}
+
+.patientTableItem-btn--reject:hover {
+    color: white;
+    background: red;
+}
+
+.patientTableItem-btn--change{
+    color: #49ff00;
+    border: #49ff00 1px solid;
+}
+
+.patientTableItem-btn--change:hover{
+    color: white;
+    background: #49ff00;
+}

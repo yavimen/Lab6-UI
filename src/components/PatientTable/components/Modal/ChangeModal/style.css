@@ -1,0 +1,15 @@
+
+.acceptModal__field{
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acceptModal__field input{
+    border: #61dafb 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+
+}
